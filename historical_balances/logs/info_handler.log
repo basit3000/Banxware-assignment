@@ -1,0 +1,513 @@
+INFO 2023-09-13 22:12:06,467 django.utils.autoreload MainThread 11328 autoreload autoreload.py 668 django.utils.autoreload run_with_reloader 19588 Watching for file changes with StatReloader
+INFO 2023-09-13 22:12:12,598 django.server Thread-1 (process_request_thread) 16024 basehttp basehttp.py 212 django.server log_message 19588 "GET /historical-balances HTTP/1.1" 200 59233
+INFO 2023-09-13 22:12:12,666 django.server Thread-1 (process_request_thread) 16024 basehttp basehttp.py 212 django.server log_message 19588 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
+INFO 2023-09-13 22:12:12,679 django.server Thread-1 (process_request_thread) 16024 basehttp basehttp.py 212 django.server log_message 19588 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
+INFO 2023-09-13 22:12:12,680 django.server Thread-3 (process_request_thread) 23364 basehttp basehttp.py 212 django.server log_message 19588 "GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
+INFO 2023-09-13 22:12:12,682 django.server Thread-2 (process_request_thread) 13204 basehttp basehttp.py 212 django.server log_message 19588 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 304 0
+INFO 2023-09-13 22:12:12,686 django.server Thread-5 (process_request_thread) 12680 basehttp basehttp.py 212 django.server log_message 19588 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+INFO 2023-09-13 22:12:12,687 django.server Thread-1 (process_request_thread) 16024 basehttp basehttp.py 212 django.server log_message 19588 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+INFO 2023-09-13 22:12:12,690 django.server Thread-2 (process_request_thread) 13204 basehttp basehttp.py 212 django.server log_message 19588 "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+INFO 2023-09-13 22:12:12,689 django.server Thread-3 (process_request_thread) 23364 basehttp basehttp.py 212 django.server log_message 19588 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+INFO 2023-09-13 22:12:12,690 django.server Thread-6 (process_request_thread) 6064 basehttp basehttp.py 212 django.server log_message 19588 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+INFO 2023-09-13 22:12:12,688 django.server Thread-4 (process_request_thread) 18868 basehttp basehttp.py 212 django.server log_message 19588 "GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 304 0
+INFO 2023-09-13 22:12:12,705 django.server Thread-2 (process_request_thread) 13204 basehttp basehttp.py 212 django.server log_message 19588 "GET /static/rest_framework/img/grid.png HTTP/1.1" 304 0
+INFO 2023-09-13 22:12:19,005 django.server Thread-2 (process_request_thread) 13204 basehttp basehttp.py 212 django.server log_message 19588 "GET /historical-balances HTTP/1.1" 200 59233
+INFO 2023-09-13 22:17:20,183 django.utils.autoreload MainThread 11328 autoreload autoreload.py 266 django.utils.autoreload trigger_reload 19588 C:\Users\Admin\Documents\Banxware\balances-and-transactions-api\historical_balances\historical_balances\settings.py changed, reloading.
+INFO 2023-09-13 22:17:20,874 django.utils.autoreload MainThread 24048 autoreload autoreload.py 668 django.utils.autoreload run_with_reloader 7704 Watching for file changes with StatReloader
+INFO 2023-09-13 22:25:23,694 django.utils.autoreload MainThread 6416 autoreload autoreload.py 668 django.utils.autoreload run_with_reloader 2012 Watching for file changes with StatReloader
+INFO 2023-09-13 22:25:30,472 django.server Thread-1 (process_request_thread) 9804 basehttp basehttp.py 212 django.server log_message 2012 "GET /historical-balances HTTP/1.1" 200 59233
+INFO 2023-09-13 22:25:48,207 django.server Thread-1 (process_request_thread) 9804 basehttp basehttp.py 212 django.server log_message 2012 "GET /swagger/schema HTTP/1.1" 301 0
+INFO 2023-09-13 22:25:48,231 django.server Thread-2 (process_request_thread) 5808 basehttp basehttp.py 212 django.server log_message 2012 "GET /swagger/schema/ HTTP/1.1" 200 2177
+INFO 2023-09-13 22:25:48,560 django.server Thread-2 (process_request_thread) 5808 basehttp basehttp.py 212 django.server log_message 2012 "GET /static/drf-yasg/style.css HTTP/1.1" 200 1047
+INFO 2023-09-13 22:25:48,582 django.server Thread-6 (process_request_thread) 23444 basehttp basehttp.py 212 django.server log_message 2012 "GET /static/drf-yasg/insQ.min.js HTTP/1.1" 200 2093
+INFO 2023-09-13 22:25:48,595 django.server Thread-3 (process_request_thread) 12436 basehttp basehttp.py 212 django.server log_message 2012 "GET /static/drf-yasg/swagger-ui-dist/swagger-ui.css HTTP/1.1" 200 145206
+INFO 2023-09-13 22:25:48,597 django.server Thread-2 (process_request_thread) 5808 basehttp basehttp.py 212 django.server log_message 2012 "GET /static/drf-yasg/swagger-ui-init.js HTTP/1.1" 200 14964
+INFO 2023-09-13 22:25:48,639 django.server Thread-4 (process_request_thread) 1480 basehttp basehttp.py 212 django.server log_message 2012 "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-bundle.js HTTP/1.1" 200 1046583
+INFO 2023-09-13 22:25:48,644 django.server Thread-7 (process_request_thread) 9920 basehttp basehttp.py 212 django.server log_message 2012 "GET /static/drf-yasg/immutable.min.js HTTP/1.1" 200 56904
+INFO 2023-09-13 22:25:48,725 django.server Thread-5 (process_request_thread) 22340 basehttp basehttp.py 212 django.server log_message 2012 "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-standalone-preset.js HTTP/1.1" 200 322863
+INFO 2023-09-13 22:25:48,976 django.server Thread-5 (process_request_thread) 22340 basehttp basehttp.py 212 django.server log_message 2012 "GET /swagger/schema/?format=openapi HTTP/1.1" 200 1003
+INFO 2023-09-13 22:25:49,070 django.server Thread-5 (process_request_thread) 22340 basehttp basehttp.py 212 django.server log_message 2012 "GET /static/drf-yasg/swagger-ui-dist/favicon-32x32.png HTTP/1.1" 200 628
+INFO 2023-09-13 22:26:20,843 django.utils.autoreload MainThread 6416 autoreload autoreload.py 266 django.utils.autoreload trigger_reload 2012 C:\Users\Admin\Documents\Banxware\balances-and-transactions-api\historical_balances\historical_balances\hbalances\serializers.py changed, reloading.
+INFO 2023-09-13 22:26:21,639 django.utils.autoreload MainThread 18624 autoreload autoreload.py 668 django.utils.autoreload run_with_reloader 18156 Watching for file changes with StatReloader
+INFO 2023-09-13 22:26:23,537 django.server Thread-1 (process_request_thread) 24372 basehttp basehttp.py 212 django.server log_message 18156 "GET /swagger/schema/ HTTP/1.1" 200 2177
+INFO 2023-09-13 22:26:23,596 django.server Thread-1 (process_request_thread) 24372 basehttp basehttp.py 212 django.server log_message 18156 "GET /static/drf-yasg/style.css HTTP/1.1" 304 0
+INFO 2023-09-13 22:26:23,599 django.server Thread-2 (process_request_thread) 7164 basehttp basehttp.py 212 django.server log_message 18156 "GET /static/drf-yasg/swagger-ui-dist/swagger-ui.css HTTP/1.1" 304 0
+INFO 2023-09-13 22:26:23,602 django.server Thread-1 (process_request_thread) 24372 basehttp basehttp.py 212 django.server log_message 18156 "GET /static/drf-yasg/swagger-ui-init.js HTTP/1.1" 304 0
+INFO 2023-09-13 22:26:23,609 django.server Thread-4 (process_request_thread) 4744 basehttp basehttp.py 212 django.server log_message 18156 "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-standalone-preset.js HTTP/1.1" 304 0
+INFO 2023-09-13 22:26:23,610 django.server Thread-3 (process_request_thread) 15096 basehttp basehttp.py 212 django.server log_message 18156 "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-bundle.js HTTP/1.1" 304 0
+INFO 2023-09-13 22:26:23,612 django.server Thread-5 (process_request_thread) 18696 basehttp basehttp.py 212 django.server log_message 18156 "GET /static/drf-yasg/insQ.min.js HTTP/1.1" 304 0
+INFO 2023-09-13 22:26:23,613 django.server Thread-6 (process_request_thread) 16956 basehttp basehttp.py 212 django.server log_message 18156 "GET /static/drf-yasg/immutable.min.js HTTP/1.1" 304 0
+INFO 2023-09-13 22:26:23,747 django.server Thread-6 (process_request_thread) 16956 basehttp basehttp.py 212 django.server log_message 18156 "GET /swagger/schema/?format=openapi HTTP/1.1" 200 988
+INFO 2023-09-13 22:26:23,754 django.server Thread-6 (process_request_thread) 16956 basehttp basehttp.py 212 django.server log_message 18156 "GET /static/drf-yasg/swagger-ui-dist/favicon-32x32.png HTTP/1.1" 304 0
+INFO 2023-09-13 22:26:43,741 django.utils.autoreload MainThread 18624 autoreload autoreload.py 266 django.utils.autoreload trigger_reload 18156 C:\Users\Admin\Documents\Banxware\balances-and-transactions-api\historical_balances\historical_balances\hbalances\models.py changed, reloading.
+INFO 2023-09-13 22:26:45,098 django.utils.autoreload MainThread 18680 autoreload autoreload.py 668 django.utils.autoreload run_with_reloader 6856 Watching for file changes with StatReloader
+INFO 2023-09-13 22:26:46,850 django.server Thread-1 (process_request_thread) 22464 basehttp basehttp.py 212 django.server log_message 6856 "GET /swagger/schema/ HTTP/1.1" 200 2177
+INFO 2023-09-13 22:26:47,086 django.server Thread-1 (process_request_thread) 22464 basehttp basehttp.py 212 django.server log_message 6856 "GET /swagger/schema/?format=openapi HTTP/1.1" 200 988
+INFO 2023-09-13 22:28:23,209 django.utils.autoreload MainThread 18680 autoreload autoreload.py 266 django.utils.autoreload trigger_reload 6856 C:\Users\Admin\Documents\Banxware\balances-and-transactions-api\historical_balances\historical_balances\hbalances\views.py changed, reloading.
+INFO 2023-09-13 22:28:24,250 django.utils.autoreload MainThread 16952 autoreload autoreload.py 668 django.utils.autoreload run_with_reloader 11048 Watching for file changes with StatReloader
+INFO 2023-09-13 22:28:55,186 django.utils.autoreload MainThread 16952 autoreload autoreload.py 266 django.utils.autoreload trigger_reload 11048 C:\Users\Admin\Documents\Banxware\balances-and-transactions-api\historical_balances\historical_balances\urls.py changed, reloading.
+INFO 2023-09-13 22:28:56,465 django.utils.autoreload MainThread 24340 autoreload autoreload.py 668 django.utils.autoreload run_with_reloader 8044 Watching for file changes with StatReloader
+INFO 2023-09-13 22:28:59,296 django.server Thread-1 (process_request_thread) 21244 basehttp basehttp.py 212 django.server log_message 8044 "GET /swagger/schema/ HTTP/1.1" 200 2177
+INFO 2023-09-13 22:28:59,352 django.server Thread-2 (process_request_thread) 5788 basehttp basehttp.py 212 django.server log_message 8044 "GET /static/drf-yasg/swagger-ui-dist/swagger-ui.css HTTP/1.1" 304 0
+INFO 2023-09-13 22:28:59,353 django.server Thread-1 (process_request_thread) 21244 basehttp basehttp.py 212 django.server log_message 8044 "GET /static/drf-yasg/style.css HTTP/1.1" 304 0
+INFO 2023-09-13 22:28:59,360 django.server Thread-4 (process_request_thread) 24048 basehttp basehttp.py 212 django.server log_message 8044 "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-standalone-preset.js HTTP/1.1" 304 0
+INFO 2023-09-13 22:28:59,360 django.server Thread-2 (process_request_thread) 5788 basehttp basehttp.py 212 django.server log_message 8044 "GET /static/drf-yasg/swagger-ui-init.js HTTP/1.1" 304 0
+INFO 2023-09-13 22:28:59,360 django.server Thread-3 (process_request_thread) 3696 basehttp basehttp.py 212 django.server log_message 8044 "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-bundle.js HTTP/1.1" 304 0
+INFO 2023-09-13 22:28:59,361 django.server Thread-5 (process_request_thread) 11988 basehttp basehttp.py 212 django.server log_message 8044 "GET /static/drf-yasg/insQ.min.js HTTP/1.1" 304 0
+INFO 2023-09-13 22:28:59,362 django.server Thread-6 (process_request_thread) 8024 basehttp basehttp.py 212 django.server log_message 8044 "GET /static/drf-yasg/immutable.min.js HTTP/1.1" 304 0
+INFO 2023-09-13 22:28:59,471 django.server Thread-6 (process_request_thread) 8024 basehttp basehttp.py 212 django.server log_message 8044 "GET /swagger/schema/?format=openapi HTTP/1.1" 200 1251
+INFO 2023-09-13 22:28:59,481 django.server Thread-6 (process_request_thread) 8024 basehttp basehttp.py 212 django.server log_message 8044 "GET /static/drf-yasg/swagger-ui-dist/favicon-32x32.png HTTP/1.1" 304 0
+INFO 2023-09-13 22:29:11,457 django.server Thread-6 (process_request_thread) 8024 basehttp basehttp.py 212 django.server log_message 8044 "GET /transactions HTTP/1.1" 200 5234
+INFO 2023-09-13 22:29:22,229 django.utils.autoreload MainThread 24340 autoreload autoreload.py 266 django.utils.autoreload trigger_reload 8044 C:\Users\Admin\Documents\Banxware\balances-and-transactions-api\historical_balances\historical_balances\hbalances\views.py changed, reloading.
+INFO 2023-09-13 22:29:23,197 django.utils.autoreload MainThread 14816 autoreload autoreload.py 668 django.utils.autoreload run_with_reloader 5584 Watching for file changes with StatReloader
+INFO 2023-09-13 22:29:24,009 django.server Thread-1 (process_request_thread) 19100 basehttp basehttp.py 212 django.server log_message 5584 "GET /transactions HTTP/1.1" 200 5234
+INFO 2023-09-13 22:29:25,499 django.server Thread-1 (process_request_thread) 19100 basehttp basehttp.py 212 django.server log_message 5584 "GET /transactions HTTP/1.1" 200 5234
+INFO 2023-09-13 22:29:57,654 django.utils.autoreload MainThread 14816 autoreload autoreload.py 266 django.utils.autoreload trigger_reload 5584 C:\Users\Admin\Documents\Banxware\balances-and-transactions-api\historical_balances\historical_balances\hbalances\views.py changed, reloading.
+INFO 2023-09-13 22:29:58,487 django.utils.autoreload MainThread 19424 autoreload autoreload.py 668 django.utils.autoreload run_with_reloader 9804 Watching for file changes with StatReloader
+INFO 2023-09-13 22:30:08,041 django.utils.autoreload MainThread 19424 autoreload autoreload.py 266 django.utils.autoreload trigger_reload 9804 C:\Users\Admin\Documents\Banxware\balances-and-transactions-api\historical_balances\historical_balances\urls.py changed, reloading.
+INFO 2023-09-13 22:30:09,147 django.utils.autoreload MainThread 23664 autoreload autoreload.py 668 django.utils.autoreload run_with_reloader 14384 Watching for file changes with StatReloader
+INFO 2023-09-13 22:30:10,300 django.server Thread-1 (process_request_thread) 14312 basehttp basehttp.py 212 django.server log_message 14384 "GET /transactions HTTP/1.1" 200 5234
+INFO 2023-09-13 22:30:12,146 django.server Thread-1 (process_request_thread) 14312 basehttp basehttp.py 212 django.server log_message 14384 "GET /balances HTTP/1.1" 200 5182
+INFO 2023-09-13 22:30:13,473 django.server Thread-1 (process_request_thread) 14312 basehttp basehttp.py 212 django.server log_message 14384 "GET /balances HTTP/1.1" 200 5182
+INFO 2023-09-13 22:30:25,244 django.utils.autoreload MainThread 23664 autoreload autoreload.py 266 django.utils.autoreload trigger_reload 14384 C:\Users\Admin\Documents\Banxware\balances-and-transactions-api\historical_balances\historical_balances\hbalances\views.py changed, reloading.
+INFO 2023-09-13 22:30:26,970 django.utils.autoreload MainThread 9156 autoreload autoreload.py 668 django.utils.autoreload run_with_reloader 13732 Watching for file changes with StatReloader
+INFO 2023-09-13 22:30:27,583 django.server Thread-1 (process_request_thread) 1112 basehttp basehttp.py 212 django.server log_message 13732 "GET /balances HTTP/1.1" 200 5182
+INFO 2023-09-13 22:30:42,984 django.utils.autoreload MainThread 9156 autoreload autoreload.py 266 django.utils.autoreload trigger_reload 13732 C:\Users\Admin\Documents\Banxware\balances-and-transactions-api\historical_balances\historical_balances\hbalances\views.py changed, reloading.
+INFO 2023-09-13 22:30:44,079 django.utils.autoreload MainThread 16492 autoreload autoreload.py 668 django.utils.autoreload run_with_reloader 13992 Watching for file changes with StatReloader
+INFO 2023-09-13 22:30:44,919 django.server Thread-1 (process_request_thread) 19128 basehttp basehttp.py 212 django.server log_message 13992 "GET /balances HTTP/1.1" 200 5198
+INFO 2023-09-13 22:31:10,400 django.server Thread-1 (process_request_thread) 19128 basehttp basehttp.py 212 django.server log_message 13992 "GET /balances HTTP/1.1" 200 5198
+INFO 2023-09-13 22:31:19,939 django.server Thread-1 (process_request_thread) 19128 basehttp basehttp.py 212 django.server log_message 13992 "GET /swagger/schema/ HTTP/1.1" 200 2177
+INFO 2023-09-13 22:31:19,998 django.server Thread-1 (process_request_thread) 19128 basehttp basehttp.py 212 django.server log_message 13992 "GET /static/drf-yasg/style.css HTTP/1.1" 304 0
+INFO 2023-09-13 22:31:19,998 django.server Thread-2 (process_request_thread) 23244 basehttp basehttp.py 212 django.server log_message 13992 "GET /static/drf-yasg/swagger-ui-dist/swagger-ui.css HTTP/1.1" 304 0
+INFO 2023-09-13 22:31:20,001 django.server Thread-3 (process_request_thread) 15976 basehttp basehttp.py 212 django.server log_message 13992 "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-bundle.js HTTP/1.1" 304 0
+INFO 2023-09-13 22:31:20,005 django.server Thread-4 (process_request_thread) 5728 basehttp basehttp.py 212 django.server log_message 13992 "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-standalone-preset.js HTTP/1.1" 304 0
+INFO 2023-09-13 22:31:20,005 django.server Thread-1 (process_request_thread) 19128 basehttp basehttp.py 212 django.server log_message 13992 "GET /static/drf-yasg/swagger-ui-init.js HTTP/1.1" 304 0
+INFO 2023-09-13 22:31:20,005 django.server Thread-5 (process_request_thread) 17792 basehttp basehttp.py 212 django.server log_message 13992 "GET /static/drf-yasg/insQ.min.js HTTP/1.1" 304 0
+INFO 2023-09-13 22:31:20,008 django.server Thread-6 (process_request_thread) 20572 basehttp basehttp.py 212 django.server log_message 13992 "GET /static/drf-yasg/immutable.min.js HTTP/1.1" 304 0
+INFO 2023-09-13 22:31:20,077 django.server Thread-6 (process_request_thread) 20572 basehttp basehttp.py 212 django.server log_message 13992 "GET /swagger/schema/?format=openapi HTTP/1.1" 200 1502
+INFO 2023-09-13 22:31:20,081 django.server Thread-6 (process_request_thread) 20572 basehttp basehttp.py 212 django.server log_message 13992 "GET /static/drf-yasg/swagger-ui-dist/favicon-32x32.png HTTP/1.1" 304 0
+INFO 2023-09-13 22:31:24,825 django.server Thread-6 (process_request_thread) 20572 basehttp basehttp.py 212 django.server log_message 13992 "GET /balances HTTP/1.1" 200 10
+INFO 2023-09-13 22:31:30,527 django.server Thread-6 (process_request_thread) 20572 basehttp basehttp.py 212 django.server log_message 13992 "GET /transactions HTTP/1.1" 200 5234
+INFO 2023-09-13 22:31:31,588 django.server Thread-6 (process_request_thread) 20572 basehttp basehttp.py 212 django.server log_message 13992 "GET /balances HTTP/1.1" 200 5198
+INFO 2023-09-13 22:31:47,791 django.utils.autoreload MainThread 16492 autoreload autoreload.py 266 django.utils.autoreload trigger_reload 13992 C:\Users\Admin\Documents\Banxware\balances-and-transactions-api\historical_balances\historical_balances\hbalances\views.py changed, reloading.
+INFO 2023-09-13 22:31:48,703 django.utils.autoreload MainThread 21092 autoreload autoreload.py 668 django.utils.autoreload run_with_reloader 17312 Watching for file changes with StatReloader
+INFO 2023-09-13 22:31:50,548 django.utils.autoreload MainThread 21092 autoreload autoreload.py 266 django.utils.autoreload trigger_reload 17312 C:\Users\Admin\Documents\Banxware\balances-and-transactions-api\historical_balances\historical_balances\hbalances\views.py changed, reloading.
+INFO 2023-09-13 22:31:51,855 django.utils.autoreload MainThread 13192 autoreload autoreload.py 668 django.utils.autoreload run_with_reloader 8344 Watching for file changes with StatReloader
+ERROR 2023-09-13 22:31:52,605 django.request Thread-1 (process_request_thread) 11704 log log.py 241 django.request log_response 8344 Internal Server Error: /balances
+Traceback (most recent call last):
+  File "C:\Users\Admin\Documents\Banxware\balances-and-transactions-api\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Documents\Banxware\balances-and-transactions-api\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Documents\Banxware\balances-and-transactions-api\venv\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Documents\Banxware\balances-and-transactions-api\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Documents\Banxware\balances-and-transactions-api\venv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Documents\Banxware\balances-and-transactions-api\venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Admin\Documents\Banxware\balances-and-transactions-api\venv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Admin\Documents\Banxware\balances-and-transactions-api\venv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Documents\Banxware\balances-and-transactions-api\venv\Lib\site-packages\rest_framework\generics.py", line 199, in get
+    return self.list(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Documents\Banxware\balances-and-transactions-api\venv\Lib\site-packages\rest_framework\mixins.py", line 45, in list
+    serializer = self.get_serializer(queryset, many=True)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Documents\Banxware\balances-and-transactions-api\venv\Lib\site-packages\rest_framework\generics.py", line 108, in get_serializer
+    serializer_class = self.get_serializer_class()
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Documents\Banxware\balances-and-transactions-api\venv\Lib\site-packages\rest_framework\generics.py", line 122, in get_serializer_class
+    assert self.serializer_class is not None, (
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'BalancesList' should either include a `serializer_class` attribute, or override the `get_serializer_class()` method.
+ERROR 2023-09-13 22:31:52,614 django.server Thread-1 (process_request_thread) 11704 basehttp basehttp.py 212 django.server log_message 8344 "GET /balances HTTP/1.1" 500 113933
+INFO 2023-09-13 22:32:01,639 django.utils.autoreload MainThread 13192 autoreload autoreload.py 266 django.utils.autoreload trigger_reload 8344 C:\Users\Admin\Documents\Banxware\balances-and-transactions-api\historical_balances\historical_balances\hbalances\views.py changed, reloading.
+INFO 2023-09-13 22:32:02,469 django.utils.autoreload MainThread 12688 autoreload autoreload.py 668 django.utils.autoreload run_with_reloader 5628 Watching for file changes with StatReloader
+INFO 2023-09-13 22:32:04,559 django.utils.autoreload MainThread 12688 autoreload autoreload.py 266 django.utils.autoreload trigger_reload 5628 C:\Users\Admin\Documents\Banxware\balances-and-transactions-api\historical_balances\historical_balances\hbalances\views.py changed, reloading.
+INFO 2023-09-13 22:32:05,720 django.utils.autoreload MainThread 4212 autoreload autoreload.py 668 django.utils.autoreload run_with_reloader 2068 Watching for file changes with StatReloader
+INFO 2023-09-13 22:32:06,459 django.server Thread-1 (process_request_thread) 7708 basehttp basehttp.py 212 django.server log_message 2068 "GET /balances HTTP/1.1" 200 5198
+INFO 2023-09-13 22:32:11,215 django.utils.autoreload MainThread 4212 autoreload autoreload.py 266 django.utils.autoreload trigger_reload 2068 C:\Users\Admin\Documents\Banxware\balances-and-transactions-api\historical_balances\historical_balances\hbalances\views.py changed, reloading.
+INFO 2023-09-13 22:32:12,049 django.utils.autoreload MainThread 1500 autoreload autoreload.py 668 django.utils.autoreload run_with_reloader 24340 Watching for file changes with StatReloader
+INFO 2023-09-13 22:32:23,135 django.server Thread-1 (process_request_thread) 16504 basehttp basehttp.py 212 django.server log_message 24340 "GET /balances HTTP/1.1" 200 5198
+INFO 2023-09-13 22:32:54,207 django.utils.autoreload MainThread 1500 autoreload autoreload.py 266 django.utils.autoreload trigger_reload 24340 C:\Users\Admin\Documents\Banxware\balances-and-transactions-api\historical_balances\historical_balances\hbalances\views.py changed, reloading.
+INFO 2023-09-13 22:32:55,229 django.utils.autoreload MainThread 5584 autoreload autoreload.py 668 django.utils.autoreload run_with_reloader 14816 Watching for file changes with StatReloader
+INFO 2023-09-13 22:32:55,990 django.server Thread-1 (process_request_thread) 6016 basehttp basehttp.py 212 django.server log_message 14816 "GET /balances HTTP/1.1" 200 5182
+INFO 2023-09-13 22:33:00,528 django.utils.autoreload MainThread 5584 autoreload autoreload.py 266 django.utils.autoreload trigger_reload 14816 C:\Users\Admin\Documents\Banxware\balances-and-transactions-api\historical_balances\historical_balances\hbalances\views.py changed, reloading.
+INFO 2023-09-13 22:33:01,278 django.utils.autoreload MainThread 13108 autoreload autoreload.py 668 django.utils.autoreload run_with_reloader 16816 Watching for file changes with StatReloader
+INFO 2023-09-13 22:33:42,476 django.utils.autoreload MainThread 13108 autoreload autoreload.py 266 django.utils.autoreload trigger_reload 16816 C:\Users\Admin\Documents\Banxware\balances-and-transactions-api\historical_balances\historical_balances\hbalances\views.py changed, reloading.
+INFO 2023-09-13 22:33:43,469 django.utils.autoreload MainThread 15308 autoreload autoreload.py 668 django.utils.autoreload run_with_reloader 22176 Watching for file changes with StatReloader
+INFO 2023-09-13 22:33:47,654 django.utils.autoreload MainThread 15308 autoreload autoreload.py 266 django.utils.autoreload trigger_reload 22176 C:\Users\Admin\Documents\Banxware\balances-and-transactions-api\historical_balances\historical_balances\urls.py changed, reloading.
+INFO 2023-09-13 22:33:48,767 django.utils.autoreload MainThread 20984 autoreload autoreload.py 668 django.utils.autoreload run_with_reloader 19064 Watching for file changes with StatReloader
+INFO 2023-09-13 22:34:27,986 django.server Thread-1 (process_request_thread) 1148 basehttp basehttp.py 212 django.server log_message 19064 "GET /balances HTTP/1.1" 200 72
+INFO 2023-09-13 22:34:30,922 django.server Thread-1 (process_request_thread) 1148 basehttp basehttp.py 212 django.server log_message 19064 "GET /balances HTTP/1.1" 200 72
+INFO 2023-09-13 22:34:48,673 django.utils.autoreload MainThread 20984 autoreload autoreload.py 266 django.utils.autoreload trigger_reload 19064 C:\Users\Admin\Documents\Banxware\balances-and-transactions-api\historical_balances\historical_balances\hbalances\views.py changed, reloading.
+INFO 2023-09-13 22:34:49,792 django.utils.autoreload MainThread 16000 autoreload autoreload.py 668 django.utils.autoreload run_with_reloader 17484 Watching for file changes with StatReloader
+ERROR 2023-09-13 22:34:50,452 django.request Thread-1 (process_request_thread) 20524 log log.py 241 django.request log_response 17484 Internal Server Error: /balances
+Traceback (most recent call last):
+  File "C:\Users\Admin\Documents\Banxware\balances-and-transactions-api\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Documents\Banxware\balances-and-transactions-api\venv\Lib\site-packages\django\utils\deprecation.py", line 136, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Documents\Banxware\balances-and-transactions-api\venv\Lib\site-packages\django\middleware\clickjacking.py", line 34, in process_response
+    response.headers["X-Frame-Options"] = self.get_xframe_options_value(
+    ^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'headers'
+ERROR 2023-09-13 22:34:50,457 django.server Thread-1 (process_request_thread) 20524 basehttp basehttp.py 212 django.server log_message 17484 "GET /balances HTTP/1.1" 500 72224
+INFO 2023-09-13 22:34:56,518 django.utils.autoreload MainThread 16000 autoreload autoreload.py 266 django.utils.autoreload trigger_reload 17484 C:\Users\Admin\Documents\Banxware\balances-and-transactions-api\historical_balances\historical_balances\hbalances\views.py changed, reloading.
+INFO 2023-09-13 22:34:57,480 django.utils.autoreload MainThread 8008 autoreload autoreload.py 668 django.utils.autoreload run_with_reloader 4012 Watching for file changes with StatReloader
+INFO 2023-09-13 22:35:01,470 django.server Thread-1 (process_request_thread) 12340 basehttp basehttp.py 212 django.server log_message 4012 "GET /balances HTTP/1.1" 200 72
+INFO 2023-09-13 22:35:06,029 django.server Thread-1 (process_request_thread) 12340 basehttp basehttp.py 212 django.server log_message 4012 "GET /transactions HTTP/1.1" 200 94347
+INFO 2023-09-13 22:35:11,521 django.server Thread-1 (process_request_thread) 12340 basehttp basehttp.py 212 django.server log_message 4012 "GET /swagger/schema/ HTTP/1.1" 200 2177
+INFO 2023-09-13 22:35:11,594 django.server Thread-1 (process_request_thread) 12340 basehttp basehttp.py 212 django.server log_message 4012 "GET /static/drf-yasg/style.css HTTP/1.1" 304 0
+INFO 2023-09-13 22:35:11,598 django.server Thread-2 (process_request_thread) 17932 basehttp basehttp.py 212 django.server log_message 4012 "GET /static/drf-yasg/swagger-ui-dist/swagger-ui.css HTTP/1.1" 304 0
+INFO 2023-09-13 22:35:11,599 django.server Thread-1 (process_request_thread) 12340 basehttp basehttp.py 212 django.server log_message 4012 "GET /static/drf-yasg/insQ.min.js HTTP/1.1" 304 0
+INFO 2023-09-13 22:35:11,606 django.server Thread-5 (process_request_thread) 5084 basehttp basehttp.py 212 django.server log_message 4012 "GET /static/drf-yasg/immutable.min.js HTTP/1.1" 304 0
+INFO 2023-09-13 22:35:11,607 django.server Thread-4 (process_request_thread) 11004 basehttp basehttp.py 212 django.server log_message 4012 "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-standalone-preset.js HTTP/1.1" 304 0
+INFO 2023-09-13 22:35:11,607 django.server Thread-6 (process_request_thread) 19588 basehttp basehttp.py 212 django.server log_message 4012 "GET /static/drf-yasg/swagger-ui-init.js HTTP/1.1" 304 0
+INFO 2023-09-13 22:35:11,608 django.server Thread-3 (process_request_thread) 22884 basehttp basehttp.py 212 django.server log_message 4012 "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-bundle.js HTTP/1.1" 304 0
+INFO 2023-09-13 22:35:12,055 django.server Thread-3 (process_request_thread) 22884 basehttp basehttp.py 212 django.server log_message 4012 "GET /swagger/schema/?format=openapi HTTP/1.1" 200 988
+INFO 2023-09-13 22:39:35,398 django.utils.autoreload MainThread 8008 autoreload autoreload.py 266 django.utils.autoreload trigger_reload 4012 C:\Users\Admin\Documents\Banxware\balances-and-transactions-api\historical_balances\historical_balances\urls.py changed, reloading.
+INFO 2023-09-13 22:39:36,632 django.utils.autoreload MainThread 11700 autoreload autoreload.py 668 django.utils.autoreload run_with_reloader 9492 Watching for file changes with StatReloader
+WARNING 2023-09-13 22:39:38,785 django.request Thread-1 (process_request_thread) 17508 log log.py 241 django.request log_response 9492 Not Found: /swagger/json/
+WARNING 2023-09-13 22:39:38,787 django.server Thread-1 (process_request_thread) 17508 basehttp basehttp.py 212 django.server log_message 9492 "GET /swagger/json/ HTTP/1.1" 404 2748
+WARNING 2023-09-13 22:39:44,734 django.request Thread-1 (process_request_thread) 17508 log log.py 241 django.request log_response 9492 Not Found: /swaggerjson/
+WARNING 2023-09-13 22:39:44,735 django.server Thread-1 (process_request_thread) 17508 basehttp basehttp.py 212 django.server log_message 9492 "GET /swaggerjson/ HTTP/1.1" 404 23
+WARNING 2023-09-13 22:39:45,810 django.request Thread-1 (process_request_thread) 17508 log log.py 241 django.request log_response 9492 Not Found: /swaggerjson/
+WARNING 2023-09-13 22:39:45,812 django.server Thread-1 (process_request_thread) 17508 basehttp basehttp.py 212 django.server log_message 9492 "GET /swaggerjson/ HTTP/1.1" 404 23
+WARNING 2023-09-13 22:39:49,424 django.request Thread-1 (process_request_thread) 17508 log log.py 241 django.request log_response 9492 Not Found: /swagger<json>/
+WARNING 2023-09-13 22:39:49,425 django.server Thread-1 (process_request_thread) 17508 basehttp basehttp.py 212 django.server log_message 9492 "GET /swagger%3Cjson%3E/ HTTP/1.1" 404 23
+WARNING 2023-09-13 22:39:50,524 django.request Thread-1 (process_request_thread) 17508 log log.py 241 django.request log_response 9492 Not Found: /swagger<json>/
+WARNING 2023-09-13 22:39:50,526 django.server Thread-1 (process_request_thread) 17508 basehttp basehttp.py 212 django.server log_message 9492 "GET /swagger%3Cjson%3E/ HTTP/1.1" 404 23
+WARNING 2023-09-13 22:39:55,560 django.request Thread-1 (process_request_thread) 17508 log log.py 241 django.request log_response 9492 Not Found: /swagger<json>/
+WARNING 2023-09-13 22:39:55,562 django.server Thread-1 (process_request_thread) 17508 basehttp basehttp.py 212 django.server log_message 9492 "GET /swagger%3Cjson%3E/ HTTP/1.1" 404 23
+INFO 2023-09-13 22:39:57,916 django.server Thread-1 (process_request_thread) 17508 basehttp basehttp.py 212 django.server log_message 9492 "GET /swagger.json/ HTTP/1.1" 200 988
+INFO 2023-09-13 22:41:26,918 django.utils.autoreload MainThread 11700 autoreload autoreload.py 266 django.utils.autoreload trigger_reload 9492 C:\Users\Admin\Documents\Banxware\balances-and-transactions-api\historical_balances\historical_balances\hbalances\views.py changed, reloading.
+INFO 2023-09-13 22:41:27,812 django.utils.autoreload MainThread 14656 autoreload autoreload.py 668 django.utils.autoreload run_with_reloader 992 Watching for file changes with StatReloader
+INFO 2023-09-13 22:41:32,680 django.utils.autoreload MainThread 14656 autoreload autoreload.py 266 django.utils.autoreload trigger_reload 992 C:\Users\Admin\Documents\Banxware\balances-and-transactions-api\historical_balances\historical_balances\hbalances\views.py changed, reloading.
+INFO 2023-09-13 22:41:33,443 django.utils.autoreload MainThread 23692 autoreload autoreload.py 668 django.utils.autoreload run_with_reloader 4188 Watching for file changes with StatReloader
+INFO 2023-09-13 22:43:48,740 django.utils.autoreload MainThread 23692 autoreload autoreload.py 266 django.utils.autoreload trigger_reload 4188 C:\Users\Admin\Documents\Banxware\balances-and-transactions-api\historical_balances\historical_balances\hbalances\views.py changed, reloading.
+INFO 2023-09-13 22:43:49,933 django.utils.autoreload MainThread 19668 autoreload autoreload.py 668 django.utils.autoreload run_with_reloader 20176 Watching for file changes with StatReloader
+INFO 2023-09-13 22:43:52,994 django.server Thread-1 (process_request_thread) 13940 basehttp basehttp.py 212 django.server log_message 20176 "GET /swagger/schema/ HTTP/1.1" 200 2177
+INFO 2023-09-13 22:43:53,061 django.server Thread-1 (process_request_thread) 13940 basehttp basehttp.py 212 django.server log_message 20176 "GET /static/drf-yasg/style.css HTTP/1.1" 304 0
+INFO 2023-09-13 22:43:53,077 django.server Thread-1 (process_request_thread) 13940 basehttp basehttp.py 212 django.server log_message 20176 "GET /static/drf-yasg/swagger-ui-dist/swagger-ui.css HTTP/1.1" 304 0
+INFO 2023-09-13 22:43:53,078 django.server Thread-2 (process_request_thread) 22544 basehttp basehttp.py 212 django.server log_message 20176 "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-bundle.js HTTP/1.1" 304 0
+INFO 2023-09-13 22:43:53,082 django.server Thread-5 (process_request_thread) 22044 basehttp basehttp.py 212 django.server log_message 20176 "GET /static/drf-yasg/immutable.min.js HTTP/1.1" 304 0
+INFO 2023-09-13 22:43:53,084 django.server Thread-3 (process_request_thread) 15004 basehttp basehttp.py 212 django.server log_message 20176 "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-standalone-preset.js HTTP/1.1" 304 0
+INFO 2023-09-13 22:43:53,086 django.server Thread-6 (process_request_thread) 20812 basehttp basehttp.py 212 django.server log_message 20176 "GET /static/drf-yasg/swagger-ui-init.js HTTP/1.1" 304 0
+INFO 2023-09-13 22:43:53,086 django.server Thread-4 (process_request_thread) 6880 basehttp basehttp.py 212 django.server log_message 20176 "GET /static/drf-yasg/insQ.min.js HTTP/1.1" 304 0
+INFO 2023-09-13 22:43:53,545 django.server Thread-4 (process_request_thread) 6880 basehttp basehttp.py 212 django.server log_message 20176 "GET /swagger/schema/?format=openapi HTTP/1.1" 200 988
+INFO 2023-09-13 22:43:53,639 django.server Thread-4 (process_request_thread) 6880 basehttp basehttp.py 212 django.server log_message 20176 "GET /static/drf-yasg/swagger-ui-dist/favicon-32x32.png HTTP/1.1" 304 0
+INFO 2023-09-13 22:44:50,991 django.utils.autoreload MainThread 19668 autoreload autoreload.py 266 django.utils.autoreload trigger_reload 20176 C:\Users\Admin\Documents\Banxware\balances-and-transactions-api\historical_balances\historical_balances\hbalances\views.py changed, reloading.
+INFO 2023-09-13 22:44:52,211 django.utils.autoreload MainThread 6344 autoreload autoreload.py 668 django.utils.autoreload run_with_reloader 19336 Watching for file changes with StatReloader
+INFO 2023-09-13 22:45:15,988 django.utils.autoreload MainThread 6344 autoreload autoreload.py 266 django.utils.autoreload trigger_reload 19336 C:\Users\Admin\Documents\Banxware\balances-and-transactions-api\historical_balances\historical_balances\hbalances\views.py changed, reloading.
+INFO 2023-09-13 22:45:17,126 django.utils.autoreload MainThread 12168 autoreload autoreload.py 668 django.utils.autoreload run_with_reloader 22924 Watching for file changes with StatReloader
+INFO 2023-09-13 22:45:52,231 django.server Thread-1 (process_request_thread) 7656 basehttp basehttp.py 212 django.server log_message 22924 "GET /swagger/schema/ HTTP/1.1" 200 2177
+INFO 2023-09-13 22:45:52,776 django.server Thread-1 (process_request_thread) 7656 basehttp basehttp.py 212 django.server log_message 22924 "GET /swagger/schema/?format=openapi HTTP/1.1" 200 988
+INFO 2023-09-13 22:46:07,032 django.utils.autoreload MainThread 12168 autoreload autoreload.py 266 django.utils.autoreload trigger_reload 22924 C:\Users\Admin\Documents\Banxware\balances-and-transactions-api\historical_balances\historical_balances\hbalances\views.py changed, reloading.
+INFO 2023-09-13 22:46:07,836 django.utils.autoreload MainThread 12280 autoreload autoreload.py 668 django.utils.autoreload run_with_reloader 9288 Watching for file changes with StatReloader
+INFO 2023-09-13 22:46:11,890 django.utils.autoreload MainThread 12280 autoreload autoreload.py 266 django.utils.autoreload trigger_reload 9288 C:\Users\Admin\Documents\Banxware\balances-and-transactions-api\historical_balances\historical_balances\hbalances\views.py changed, reloading.
+INFO 2023-09-13 22:46:12,762 django.utils.autoreload MainThread 12356 autoreload autoreload.py 668 django.utils.autoreload run_with_reloader 18892 Watching for file changes with StatReloader
+INFO 2023-09-13 22:46:15,289 django.server Thread-1 (process_request_thread) 9440 basehttp basehttp.py 212 django.server log_message 18892 "GET /swagger/schema/ HTTP/1.1" 200 2177
+INFO 2023-09-13 22:46:15,342 django.server Thread-1 (process_request_thread) 9440 basehttp basehttp.py 212 django.server log_message 18892 "GET /static/drf-yasg/style.css HTTP/1.1" 304 0
+INFO 2023-09-13 22:46:15,343 django.server Thread-2 (process_request_thread) 18564 basehttp basehttp.py 212 django.server log_message 18892 "GET /static/drf-yasg/swagger-ui-dist/swagger-ui.css HTTP/1.1" 304 0
+INFO 2023-09-13 22:46:15,348 django.server Thread-1 (process_request_thread) 9440 basehttp basehttp.py 212 django.server log_message 18892 "GET /static/drf-yasg/swagger-ui-init.js HTTP/1.1" 304 0
+INFO 2023-09-13 22:46:15,350 django.server Thread-3 (process_request_thread) 15016 basehttp basehttp.py 212 django.server log_message 18892 "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-bundle.js HTTP/1.1" 304 0
+INFO 2023-09-13 22:46:15,352 django.server Thread-4 (process_request_thread) 9260 basehttp basehttp.py 212 django.server log_message 18892 "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-standalone-preset.js HTTP/1.1" 304 0
+INFO 2023-09-13 22:46:15,355 django.server Thread-5 (process_request_thread) 17276 basehttp basehttp.py 212 django.server log_message 18892 "GET /static/drf-yasg/insQ.min.js HTTP/1.1" 304 0
+INFO 2023-09-13 22:46:15,356 django.server Thread-6 (process_request_thread) 19324 basehttp basehttp.py 212 django.server log_message 18892 "GET /static/drf-yasg/immutable.min.js HTTP/1.1" 304 0
+INFO 2023-09-13 22:46:15,430 django.server Thread-6 (process_request_thread) 19324 basehttp basehttp.py 212 django.server log_message 18892 "GET /swagger/schema/?format=openapi HTTP/1.1" 200 988
+INFO 2023-09-13 22:46:15,435 django.server Thread-6 (process_request_thread) 19324 basehttp basehttp.py 212 django.server log_message 18892 "GET /static/drf-yasg/swagger-ui-dist/favicon-32x32.png HTTP/1.1" 304 0
+INFO 2023-09-13 22:46:28,457 django.utils.autoreload MainThread 12356 autoreload autoreload.py 266 django.utils.autoreload trigger_reload 18892 C:\Users\Admin\Documents\Banxware\balances-and-transactions-api\historical_balances\historical_balances\urls.py changed, reloading.
+INFO 2023-09-13 22:46:29,616 django.utils.autoreload MainThread 6164 autoreload autoreload.py 668 django.utils.autoreload run_with_reloader 13484 Watching for file changes with StatReloader
+INFO 2023-09-13 22:46:30,090 django.server Thread-1 (process_request_thread) 2248 basehttp basehttp.py 212 django.server log_message 13484 "GET /swagger/schema/ HTTP/1.1" 200 2177
+INFO 2023-09-13 22:46:30,220 django.server Thread-1 (process_request_thread) 2248 basehttp basehttp.py 212 django.server log_message 13484 "GET /swagger/schema/?format=openapi HTTP/1.1" 200 1239
+INFO 2023-09-13 22:46:34,291 django.server Thread-1 (process_request_thread) 2248 basehttp basehttp.py 212 django.server log_message 13484 "GET /balances HTTP/1.1" 200 5182
+INFO 2023-09-13 22:47:02,452 django.utils.autoreload MainThread 6164 autoreload autoreload.py 266 django.utils.autoreload trigger_reload 13484 C:\Users\Admin\Documents\Banxware\balances-and-transactions-api\historical_balances\historical_balances\hbalances\views.py changed, reloading.
+INFO 2023-09-13 22:47:03,570 django.utils.autoreload MainThread 8980 autoreload autoreload.py 668 django.utils.autoreload run_with_reloader 17500 Watching for file changes with StatReloader
+ERROR 2023-09-13 22:47:04,442 django.request Thread-1 (process_request_thread) 11336 log log.py 241 django.request log_response 17500 Internal Server Error: /balances
+Traceback (most recent call last):
+  File "C:\Users\Admin\Documents\Banxware\balances-and-transactions-api\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Documents\Banxware\balances-and-transactions-api\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Documents\Banxware\balances-and-transactions-api\venv\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Documents\Banxware\balances-and-transactions-api\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Documents\Banxware\balances-and-transactions-api\venv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Documents\Banxware\balances-and-transactions-api\venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Admin\Documents\Banxware\balances-and-transactions-api\venv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Admin\Documents\Banxware\balances-and-transactions-api\venv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Documents\Banxware\balances-and-transactions-api\venv\Lib\site-packages\rest_framework\generics.py", line 199, in get
+    return self.list(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Documents\Banxware\balances-and-transactions-api\venv\Lib\site-packages\rest_framework\mixins.py", line 38, in list
+    queryset = self.filter_queryset(self.get_queryset())
+                                    ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Documents\Banxware\balances-and-transactions-api\historical_balances\historical_balances\hbalances\views.py", line 20, in get_queryset
+    return JsonResponse(balances_serializer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Documents\Banxware\balances-and-transactions-api\venv\Lib\site-packages\django\http\response.py", line 724, in __init__
+    raise TypeError(
+TypeError: In order to allow non-dict objects to be serialized set the safe parameter to False.
+ERROR 2023-09-13 22:47:04,450 django.server Thread-1 (process_request_thread) 11336 basehttp basehttp.py 212 django.server log_message 17500 "GET /balances HTTP/1.1" 500 115664
+INFO 2023-09-13 22:47:12,231 django.utils.autoreload MainThread 8980 autoreload autoreload.py 266 django.utils.autoreload trigger_reload 17500 C:\Users\Admin\Documents\Banxware\balances-and-transactions-api\historical_balances\historical_balances\hbalances\views.py changed, reloading.
+INFO 2023-09-13 22:47:13,494 django.utils.autoreload MainThread 22636 autoreload autoreload.py 668 django.utils.autoreload run_with_reloader 5940 Watching for file changes with StatReloader
+ERROR 2023-09-13 22:47:14,279 django.request Thread-1 (process_request_thread) 6772 log log.py 241 django.request log_response 5940 Internal Server Error: /balances
+Traceback (most recent call last):
+  File "C:\Users\Admin\Documents\Banxware\balances-and-transactions-api\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Documents\Banxware\balances-and-transactions-api\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Documents\Banxware\balances-and-transactions-api\venv\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Documents\Banxware\balances-and-transactions-api\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Documents\Banxware\balances-and-transactions-api\venv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Documents\Banxware\balances-and-transactions-api\venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Admin\Documents\Banxware\balances-and-transactions-api\venv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Admin\Documents\Banxware\balances-and-transactions-api\venv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Documents\Banxware\balances-and-transactions-api\venv\Lib\site-packages\rest_framework\generics.py", line 199, in get
+    return self.list(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Documents\Banxware\balances-and-transactions-api\venv\Lib\site-packages\rest_framework\mixins.py", line 38, in list
+    queryset = self.filter_queryset(self.get_queryset())
+                                    ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Documents\Banxware\balances-and-transactions-api\historical_balances\historical_balances\hbalances\views.py", line 20, in get_queryset
+    return JsonResponse(balances_serializer, safe=False)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Documents\Banxware\balances-and-transactions-api\venv\Lib\site-packages\django\http\response.py", line 731, in __init__
+    data = json.dumps(data, cls=encoder, **json_dumps_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python311\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Documents\Banxware\balances-and-transactions-api\venv\Lib\site-packages\django\core\serializers\json.py", line 106, in default
+    return super().default(o)
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type HbalancesSerializer is not JSON serializable
+ERROR 2023-09-13 22:47:14,290 django.server Thread-1 (process_request_thread) 6772 basehttp basehttp.py 212 django.server log_message 5940 "GET /balances HTTP/1.1" 500 138822
+INFO 2023-09-13 22:47:33,986 django.utils.autoreload MainThread 22636 autoreload autoreload.py 266 django.utils.autoreload trigger_reload 5940 C:\Users\Admin\Documents\Banxware\balances-and-transactions-api\historical_balances\historical_balances\hbalances\views.py changed, reloading.
+INFO 2023-09-13 22:47:35,253 django.utils.autoreload MainThread 14988 autoreload autoreload.py 668 django.utils.autoreload run_with_reloader 20336 Watching for file changes with StatReloader
+ERROR 2023-09-13 22:47:36,181 django.request Thread-1 (process_request_thread) 5300 log log.py 241 django.request log_response 20336 Internal Server Error: /balances
+Traceback (most recent call last):
+  File "C:\Users\Admin\Documents\Banxware\balances-and-transactions-api\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Documents\Banxware\balances-and-transactions-api\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Documents\Banxware\balances-and-transactions-api\venv\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Documents\Banxware\balances-and-transactions-api\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Documents\Banxware\balances-and-transactions-api\venv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Documents\Banxware\balances-and-transactions-api\venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Admin\Documents\Banxware\balances-and-transactions-api\venv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Admin\Documents\Banxware\balances-and-transactions-api\venv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Documents\Banxware\balances-and-transactions-api\venv\Lib\site-packages\rest_framework\generics.py", line 199, in get
+    return self.list(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Documents\Banxware\balances-and-transactions-api\venv\Lib\site-packages\rest_framework\mixins.py", line 46, in list
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Documents\Banxware\balances-and-transactions-api\venv\Lib\site-packages\rest_framework\serializers.py", line 768, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "C:\Users\Admin\Documents\Banxware\balances-and-transactions-api\venv\Lib\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Documents\Banxware\balances-and-transactions-api\venv\Lib\site-packages\rest_framework\serializers.py", line 686, in to_representation
+    return [
+           ^
+  File "C:\Users\Admin\Documents\Banxware\balances-and-transactions-api\venv\Lib\site-packages\rest_framework\serializers.py", line 686, in <listcomp>
+    return [
+           ^
+  File "C:\Users\Admin\Documents\Banxware\balances-and-transactions-api\venv\Lib\site-packages\rest_framework\serializers.py", line 538, in __iter__
+    yield self[field.field_name]
+          ~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Documents\Banxware\balances-and-transactions-api\venv\Lib\site-packages\rest_framework\serializers.py", line 542, in __getitem__
+    value = self.data.get(key)
+            ^^^^^^^^^
+  File "C:\Users\Admin\Documents\Banxware\balances-and-transactions-api\venv\Lib\site-packages\rest_framework\serializers.py", line 555, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "C:\Users\Admin\Documents\Banxware\balances-and-transactions-api\venv\Lib\site-packages\rest_framework\serializers.py", line 249, in data
+    raise AssertionError(msg)
+AssertionError: When a serializer is passed a `data` keyword argument you must call `.is_valid()` before attempting to access the serialized `.data` representation.
+You should either call `.is_valid()` first, or access `.initial_data` instead.
+ERROR 2023-09-13 22:47:36,192 django.server Thread-1 (process_request_thread) 5300 basehttp basehttp.py 212 django.server log_message 20336 "GET /balances HTTP/1.1" 500 145353
+INFO 2023-09-13 22:47:51,518 django.utils.autoreload MainThread 14988 autoreload autoreload.py 266 django.utils.autoreload trigger_reload 20336 C:\Users\Admin\Documents\Banxware\balances-and-transactions-api\historical_balances\historical_balances\hbalances\views.py changed, reloading.
+INFO 2023-09-13 22:47:52,589 django.utils.autoreload MainThread 14072 autoreload autoreload.py 668 django.utils.autoreload run_with_reloader 10824 Watching for file changes with StatReloader
+INFO 2023-09-13 22:47:53,457 django.server Thread-1 (process_request_thread) 20360 basehttp basehttp.py 212 django.server log_message 10824 "GET /balances HTTP/1.1" 200 5182
+INFO 2023-09-13 22:48:02,338 django.utils.autoreload MainThread 14072 autoreload autoreload.py 266 django.utils.autoreload trigger_reload 10824 C:\Users\Admin\Documents\Banxware\balances-and-transactions-api\historical_balances\historical_balances\hbalances\views.py changed, reloading.
+INFO 2023-09-13 22:48:03,362 django.utils.autoreload MainThread 15392 autoreload autoreload.py 668 django.utils.autoreload run_with_reloader 20556 Watching for file changes with StatReloader
+INFO 2023-09-13 22:48:04,056 django.server Thread-1 (process_request_thread) 13140 basehttp basehttp.py 212 django.server log_message 20556 "GET /balances HTTP/1.1" 200 5182
+INFO 2023-09-13 22:48:07,025 django.server Thread-1 (process_request_thread) 13140 basehttp basehttp.py 212 django.server log_message 20556 "GET /balances HTTP/1.1" 200 5182
+INFO 2023-09-13 22:48:30,199 django.utils.autoreload MainThread 15392 autoreload autoreload.py 266 django.utils.autoreload trigger_reload 20556 C:\Users\Admin\Documents\Banxware\balances-and-transactions-api\historical_balances\historical_balances\urls.py changed, reloading.
+INFO 2023-09-13 22:48:31,157 django.utils.autoreload MainThread 7712 autoreload autoreload.py 668 django.utils.autoreload run_with_reloader 12208 Watching for file changes with StatReloader
+INFO 2023-09-13 22:48:51,196 django.server Thread-1 (process_request_thread) 17872 basehttp basehttp.py 212 django.server log_message 12208 "GET /balances HTTP/1.1" 200 72
+INFO 2023-09-13 22:49:01,546 django.utils.autoreload MainThread 7712 autoreload autoreload.py 266 django.utils.autoreload trigger_reload 12208 C:\Users\Admin\Documents\Banxware\balances-and-transactions-api\historical_balances\historical_balances\hbalances\views.py changed, reloading.
+INFO 2023-09-13 22:49:02,624 django.utils.autoreload MainThread 2796 autoreload autoreload.py 668 django.utils.autoreload run_with_reloader 10120 Watching for file changes with StatReloader
+ERROR 2023-09-13 22:49:03,447 django.request Thread-1 (process_request_thread) 19876 log log.py 241 django.request log_response 10120 Internal Server Error: /balances
+Traceback (most recent call last):
+  File "C:\Users\Admin\Documents\Banxware\balances-and-transactions-api\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Documents\Banxware\balances-and-transactions-api\venv\Lib\site-packages\django\utils\deprecation.py", line 136, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Documents\Banxware\balances-and-transactions-api\venv\Lib\site-packages\django\middleware\clickjacking.py", line 34, in process_response
+    response.headers["X-Frame-Options"] = self.get_xframe_options_value(
+    ^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'headers'
+ERROR 2023-09-13 22:49:03,451 django.server Thread-1 (process_request_thread) 19876 basehttp basehttp.py 212 django.server log_message 10120 "GET /balances HTTP/1.1" 500 72065
+INFO 2023-09-13 22:49:05,907 django.utils.autoreload MainThread 2796 autoreload autoreload.py 266 django.utils.autoreload trigger_reload 10120 C:\Users\Admin\Documents\Banxware\balances-and-transactions-api\historical_balances\historical_balances\hbalances\views.py changed, reloading.
+INFO 2023-09-13 22:49:07,093 django.utils.autoreload MainThread 16724 autoreload autoreload.py 668 django.utils.autoreload run_with_reloader 14232 Watching for file changes with StatReloader
+INFO 2023-09-13 22:49:07,779 django.server Thread-1 (process_request_thread) 24536 basehttp basehttp.py 212 django.server log_message 14232 "GET /balances HTTP/1.1" 200 72
+INFO 2023-09-13 22:49:10,328 django.server Thread-1 (process_request_thread) 24536 basehttp basehttp.py 212 django.server log_message 14232 "GET /transactions HTTP/1.1" 200 94347
+INFO 2023-09-13 22:49:13,919 django.server Thread-1 (process_request_thread) 24536 basehttp basehttp.py 212 django.server log_message 14232 "GET /historical-balances HTTP/1.1" 200 5325
+INFO 2023-09-13 22:49:38,335 django.server Thread-1 (process_request_thread) 24536 basehttp basehttp.py 212 django.server log_message 14232 "GET /historical-balances HTTP/1.1" 200 5325
+INFO 2023-09-13 22:49:51,020 django.server Thread-1 (process_request_thread) 24536 basehttp basehttp.py 212 django.server log_message 14232 "GET /historical-balances HTTP/1.1" 200 5325
+INFO 2023-09-13 22:49:53,787 django.utils.autoreload MainThread 16724 autoreload autoreload.py 266 django.utils.autoreload trigger_reload 14232 C:\Users\Admin\Documents\Banxware\balances-and-transactions-api\historical_balances\historical_balances\hbalances\views.py changed, reloading.
+INFO 2023-09-13 22:49:54,887 django.utils.autoreload MainThread 13696 autoreload autoreload.py 668 django.utils.autoreload run_with_reloader 19668 Watching for file changes with StatReloader
+INFO 2023-09-13 22:49:55,936 django.server Thread-1 (process_request_thread) 6980 basehttp basehttp.py 212 django.server log_message 19668 "GET /historical-balances HTTP/1.1" 200 5325
+INFO 2023-09-13 22:50:09,744 django.utils.autoreload MainThread 13696 autoreload autoreload.py 266 django.utils.autoreload trigger_reload 19668 C:\Users\Admin\Documents\Banxware\balances-and-transactions-api\historical_balances\historical_balances\hbalances\views.py changed, reloading.
+INFO 2023-09-13 22:50:10,582 django.utils.autoreload MainThread 21788 autoreload autoreload.py 668 django.utils.autoreload run_with_reloader 14488 Watching for file changes with StatReloader
+INFO 2023-09-13 22:50:13,558 django.server Thread-1 (process_request_thread) 22672 basehttp basehttp.py 212 django.server log_message 14488 "GET /historical-balances HTTP/1.1" 200 5325
+INFO 2023-09-13 22:50:17,279 django.utils.autoreload MainThread 21788 autoreload autoreload.py 266 django.utils.autoreload trigger_reload 14488 C:\Users\Admin\Documents\Banxware\balances-and-transactions-api\historical_balances\historical_balances\hbalances\views.py changed, reloading.
+INFO 2023-09-13 22:50:18,020 django.utils.autoreload MainThread 16492 autoreload autoreload.py 668 django.utils.autoreload run_with_reloader 19128 Watching for file changes with StatReloader
+INFO 2023-09-13 22:50:33,837 django.utils.autoreload MainThread 16492 autoreload autoreload.py 266 django.utils.autoreload trigger_reload 19128 C:\Users\Admin\Documents\Banxware\balances-and-transactions-api\historical_balances\historical_balances\hbalances\views.py changed, reloading.
+INFO 2023-09-13 22:50:34,934 django.utils.autoreload MainThread 6628 autoreload autoreload.py 668 django.utils.autoreload run_with_reloader 24288 Watching for file changes with StatReloader
+INFO 2023-09-13 22:50:36,361 django.server Thread-1 (process_request_thread) 18436 basehttp basehttp.py 212 django.server log_message 24288 "GET /historical-balances HTTP/1.1" 200 5325
+INFO 2023-09-13 22:50:39,135 django.server Thread-1 (process_request_thread) 18436 basehttp basehttp.py 212 django.server log_message 24288 "GET /historical-balances HTTP/1.1" 200 5325
+INFO 2023-09-13 22:50:55,402 django.utils.autoreload MainThread 6628 autoreload autoreload.py 266 django.utils.autoreload trigger_reload 24288 C:\Users\Admin\Documents\Banxware\balances-and-transactions-api\historical_balances\historical_balances\hbalances\views.py changed, reloading.
+INFO 2023-09-13 22:50:56,892 django.utils.autoreload MainThread 12744 autoreload autoreload.py 668 django.utils.autoreload run_with_reloader 8284 Watching for file changes with StatReloader
+INFO 2023-09-13 22:50:57,981 django.server Thread-1 (process_request_thread) 16428 basehttp basehttp.py 212 django.server log_message 8284 "GET /historical-balances HTTP/1.1" 200 5325
+INFO 2023-09-13 22:51:01,676 django.server Thread-1 (process_request_thread) 16428 basehttp basehttp.py 212 django.server log_message 8284 "GET /historical-balances HTTP/1.1" 200 5325
+INFO 2023-09-13 22:51:36,564 django.utils.autoreload MainThread 12744 autoreload autoreload.py 266 django.utils.autoreload trigger_reload 8284 C:\Users\Admin\Documents\Banxware\balances-and-transactions-api\historical_balances\historical_balances\hbalances\serializers.py changed, reloading.
+INFO 2023-09-13 22:51:37,482 django.utils.autoreload MainThread 15768 autoreload autoreload.py 668 django.utils.autoreload run_with_reloader 17160 Watching for file changes with StatReloader
+INFO 2023-09-13 22:51:38,386 django.server Thread-1 (process_request_thread) 6600 basehttp basehttp.py 212 django.server log_message 17160 "GET /historical-balances HTTP/1.1" 200 59233
+INFO 2023-09-13 22:52:33,469 django.utils.autoreload MainThread 15768 autoreload autoreload.py 266 django.utils.autoreload trigger_reload 17160 C:\Users\Admin\Documents\Banxware\balances-and-transactions-api\historical_balances\historical_balances\hbalances\views.py changed, reloading.
+INFO 2023-09-13 22:52:34,486 django.utils.autoreload MainThread 8008 autoreload autoreload.py 668 django.utils.autoreload run_with_reloader 4144 Watching for file changes with StatReloader
+INFO 2023-09-13 22:52:35,479 django.server Thread-1 (process_request_thread) 148 basehttp basehttp.py 212 django.server log_message 4144 "GET /historical-balances HTTP/1.1" 200 59233
+INFO 2023-09-13 22:52:43,017 django.utils.autoreload MainThread 8008 autoreload autoreload.py 266 django.utils.autoreload trigger_reload 4144 C:\Users\Admin\Documents\Banxware\balances-and-transactions-api\historical_balances\historical_balances\hbalances\views.py changed, reloading.
+INFO 2023-09-13 22:52:43,783 django.utils.autoreload MainThread 23092 autoreload autoreload.py 668 django.utils.autoreload run_with_reloader 15008 Watching for file changes with StatReloader
+INFO 2023-09-13 22:52:48,992 django.utils.autoreload MainThread 23092 autoreload autoreload.py 266 django.utils.autoreload trigger_reload 15008 C:\Users\Admin\Documents\Banxware\balances-and-transactions-api\historical_balances\historical_balances\hbalances\views.py changed, reloading.
+INFO 2023-09-13 22:52:49,788 django.utils.autoreload MainThread 15260 autoreload autoreload.py 668 django.utils.autoreload run_with_reloader 21112 Watching for file changes with StatReloader
+INFO 2023-09-13 22:52:51,582 django.server Thread-1 (process_request_thread) 15468 basehttp basehttp.py 212 django.server log_message 21112 "GET /balances HTTP/1.1" 200 72
+INFO 2023-09-13 22:53:22,131 django.utils.autoreload MainThread 15260 autoreload autoreload.py 266 django.utils.autoreload trigger_reload 21112 C:\Users\Admin\Documents\Banxware\balances-and-transactions-api\historical_balances\historical_balances\hbalances\views.py changed, reloading.
+INFO 2023-09-13 22:53:23,252 django.utils.autoreload MainThread 10592 autoreload autoreload.py 668 django.utils.autoreload run_with_reloader 13604 Watching for file changes with StatReloader
+INFO 2023-09-13 22:53:27,446 django.utils.autoreload MainThread 10592 autoreload autoreload.py 266 django.utils.autoreload trigger_reload 13604 C:\Users\Admin\Documents\Banxware\balances-and-transactions-api\historical_balances\historical_balances\urls.py changed, reloading.
+INFO 2023-09-13 22:53:28,505 django.utils.autoreload MainThread 11912 autoreload autoreload.py 668 django.utils.autoreload run_with_reloader 22200 Watching for file changes with StatReloader
+INFO 2023-09-13 22:53:31,065 django.server Thread-1 (process_request_thread) 1616 basehttp basehttp.py 212 django.server log_message 22200 "GET /balances HTTP/1.1" 200 5182
+INFO 2023-09-13 22:53:42,495 django.utils.autoreload MainThread 11912 autoreload autoreload.py 266 django.utils.autoreload trigger_reload 22200 C:\Users\Admin\Documents\Banxware\balances-and-transactions-api\historical_balances\historical_balances\hbalances\views.py changed, reloading.
+INFO 2023-09-13 22:53:43,339 django.utils.autoreload MainThread 13788 autoreload autoreload.py 668 django.utils.autoreload run_with_reloader 22712 Watching for file changes with StatReloader
+INFO 2023-09-13 22:53:44,120 django.server Thread-1 (process_request_thread) 4052 basehttp basehttp.py 212 django.server log_message 22712 "GET /balances HTTP/1.1" 200 5198
+INFO 2023-09-13 22:53:52,751 django.utils.autoreload MainThread 13788 autoreload autoreload.py 266 django.utils.autoreload trigger_reload 22712 C:\Users\Admin\Documents\Banxware\balances-and-transactions-api\historical_balances\historical_balances\hbalances\views.py changed, reloading.
+INFO 2023-09-13 22:53:53,598 django.utils.autoreload MainThread 4664 autoreload autoreload.py 668 django.utils.autoreload run_with_reloader 18128 Watching for file changes with StatReloader
+INFO 2023-09-13 22:54:00,781 django.utils.autoreload MainThread 4664 autoreload autoreload.py 266 django.utils.autoreload trigger_reload 18128 C:\Users\Admin\Documents\Banxware\balances-and-transactions-api\historical_balances\historical_balances\urls.py changed, reloading.
+INFO 2023-09-13 22:54:01,870 django.utils.autoreload MainThread 24292 autoreload autoreload.py 668 django.utils.autoreload run_with_reloader 7088 Watching for file changes with StatReloader
+INFO 2023-09-13 22:54:02,479 django.server Thread-1 (process_request_thread) 7396 basehttp basehttp.py 212 django.server log_message 7088 "GET /balances HTTP/1.1" 200 72
+INFO 2023-09-13 22:54:04,716 django.server Thread-1 (process_request_thread) 7396 basehttp basehttp.py 212 django.server log_message 7088 "GET /historical-balances HTTP/1.1" 200 59233
+INFO 2023-09-13 22:54:18,418 django.server Thread-1 (process_request_thread) 7396 basehttp basehttp.py 212 django.server log_message 7088 "GET /historical-balances?from=2022-01-03&to=2022-01-05&sort=desc\ HTTP/1.1" 200 6051
+INFO 2023-09-13 22:54:20,240 django.server Thread-1 (process_request_thread) 7396 basehttp basehttp.py 212 django.server log_message 7088 "GET /historical-balances?from=2022-01-03&to=2022-01-05&sort=desc HTTP/1.1" 200 6036
+INFO 2023-09-13 23:06:07,375 django.utils.autoreload MainThread 9536 autoreload autoreload.py 668 django.utils.autoreload run_with_reloader 7820 Watching for file changes with StatReloader
+INFO 2023-09-13 23:28:05,273 django.utils.autoreload MainThread 15684 autoreload autoreload.py 668 django.utils.autoreload run_with_reloader 6228 Watching for file changes with StatReloader
+INFO 2023-09-13 23:28:05,678 django.server Thread-1 (process_request_thread) 14228 basehttp basehttp.py 212 django.server log_message 6228 "GET /historical-balances HTTP/1.1" 301 0
+INFO 2023-09-13 23:28:06,450 django.server Thread-2 (process_request_thread) 22972 basehttp basehttp.py 212 django.server log_message 6228 "GET /historical-balances/ HTTP/1.1" 200 59239
+INFO 2023-09-13 23:28:07,589 django.server Thread-2 (process_request_thread) 22972 basehttp basehttp.py 212 django.server log_message 6228 "GET /historical-balances?from=2022-01-03&to=2022-01-05&sort=desc HTTP/1.1" 301 0
+INFO 2023-09-13 23:28:08,140 django.server Thread-3 (process_request_thread) 11576 basehttp basehttp.py 212 django.server log_message 6228 "GET /historical-balances/?from=2022-01-03&to=2022-01-05&sort=desc HTTP/1.1" 200 6042
+INFO 2023-09-13 23:28:12,089 django.server Thread-3 (process_request_thread) 11576 basehttp basehttp.py 212 django.server log_message 6228 "GET /balances HTTP/1.1" 301 0
+INFO 2023-09-13 23:28:12,199 django.server Thread-4 (process_request_thread) 7116 basehttp basehttp.py 212 django.server log_message 6228 "GET /balances/ HTTP/1.1" 200 72
+INFO 2023-09-13 23:28:15,128 django.server Thread-4 (process_request_thread) 7116 basehttp basehttp.py 212 django.server log_message 6228 "GET /swagger/schema/ HTTP/1.1" 200 2177
+INFO 2023-09-13 23:28:15,192 django.server Thread-4 (process_request_thread) 7116 basehttp basehttp.py 212 django.server log_message 6228 "GET /static/drf-yasg/style.css HTTP/1.1" 304 0
+INFO 2023-09-13 23:28:15,196 django.server Thread-5 (process_request_thread) 17276 basehttp basehttp.py 212 django.server log_message 6228 "GET /static/drf-yasg/swagger-ui-dist/swagger-ui.css HTTP/1.1" 304 0
+INFO 2023-09-13 23:28:15,202 django.server Thread-6 (process_request_thread) 23332 basehttp basehttp.py 212 django.server log_message 6228 "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-bundle.js HTTP/1.1" 304 0
+INFO 2023-09-13 23:28:15,203 django.server Thread-4 (process_request_thread) 7116 basehttp basehttp.py 212 django.server log_message 6228 "GET /static/drf-yasg/insQ.min.js HTTP/1.1" 304 0
+INFO 2023-09-13 23:28:15,204 django.server Thread-7 (process_request_thread) 8164 basehttp basehttp.py 212 django.server log_message 6228 "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-standalone-preset.js HTTP/1.1" 304 0
+INFO 2023-09-13 23:28:15,206 django.server Thread-9 (process_request_thread) 20368 basehttp basehttp.py 212 django.server log_message 6228 "GET /static/drf-yasg/swagger-ui-init.js HTTP/1.1" 304 0
+INFO 2023-09-13 23:28:15,206 django.server Thread-8 (process_request_thread) 7668 basehttp basehttp.py 212 django.server log_message 6228 "GET /static/drf-yasg/immutable.min.js HTTP/1.1" 304 0
+INFO 2023-09-13 23:28:15,469 django.server Thread-8 (process_request_thread) 7668 basehttp basehttp.py 212 django.server log_message 6228 "GET /swagger/schema/?format=openapi HTTP/1.1" 200 1004
+INFO 2023-09-13 23:28:19,193 django.server Thread-8 (process_request_thread) 7668 basehttp basehttp.py 212 django.server log_message 6228 "GET /swagger.json HTTP/1.1" 301 0
+INFO 2023-09-13 23:28:19,205 django.server Thread-9 (process_request_thread) 20368 basehttp basehttp.py 212 django.server log_message 6228 "GET /swagger.json/ HTTP/1.1" 200 1004
+INFO 2023-09-13 23:32:16,711 django.utils.autoreload MainThread 11836 autoreload autoreload.py 668 django.utils.autoreload run_with_reloader 21332 Watching for file changes with StatReloader
+WARNING 2023-09-13 23:32:25,690 django.request Thread-1 (process_request_thread) 10916 log log.py 241 django.request log_response 21332 Not Found: /
+WARNING 2023-09-13 23:32:25,692 django.server Thread-1 (process_request_thread) 10916 basehttp basehttp.py 212 django.server log_message 21332 "GET / HTTP/1.1" 404 2765
+WARNING 2023-09-13 23:32:25,825 django.request Thread-1 (process_request_thread) 10916 log log.py 241 django.request log_response 21332 Not Found: /favicon.ico
+WARNING 2023-09-13 23:32:25,827 django.server Thread-1 (process_request_thread) 10916 basehttp basehttp.py 212 django.server log_message 21332 "GET /favicon.ico HTTP/1.1" 404 2816
+WARNING 2023-09-13 23:32:27,559 django.request Thread-1 (process_request_thread) 10916 log log.py 241 django.request log_response 21332 Not Found: /
+WARNING 2023-09-13 23:32:27,560 django.server Thread-1 (process_request_thread) 10916 basehttp basehttp.py 212 django.server log_message 21332 "GET / HTTP/1.1" 404 2765
+INFO 2023-09-13 23:32:38,008 django.server Thread-1 (process_request_thread) 10916 basehttp basehttp.py 212 django.server log_message 21332 "GET /historical-balances HTTP/1.1" 301 0
+INFO 2023-09-13 23:32:38,605 django.server Thread-2 (process_request_thread) 6356 basehttp basehttp.py 212 django.server log_message 21332 "GET /historical-balances/ HTTP/1.1" 200 59239
+INFO 2023-09-13 23:32:38,788 django.server Thread-3 (process_request_thread) 14652 basehttp basehttp.py 212 django.server log_message 21332 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+INFO 2023-09-13 23:32:38,791 django.server Thread-2 (process_request_thread) 6356 basehttp basehttp.py 212 django.server log_message 21332 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+INFO 2023-09-13 23:32:38,800 django.server Thread-3 (process_request_thread) 14652 basehttp basehttp.py 212 django.server log_message 21332 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2023-09-13 23:32:38,803 django.server Thread-2 (process_request_thread) 6356 basehttp basehttp.py 212 django.server log_message 21332 "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1152
+INFO 2023-09-13 23:32:38,833 django.server Thread-2 (process_request_thread) 6356 basehttp basehttp.py 212 django.server log_message 21332 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+INFO 2023-09-13 23:32:38,860 django.server Thread-2 (process_request_thread) 6356 basehttp basehttp.py 212 django.server log_message 21332 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1719
+INFO 2023-09-13 23:32:38,885 django.server Thread-3 (process_request_thread) 14652 basehttp basehttp.py 212 django.server log_message 21332 "GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 200 89476
+INFO 2023-09-13 23:32:38,910 django.server Thread-2 (process_request_thread) 6356 basehttp basehttp.py 212 django.server log_message 21332 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+INFO 2023-09-13 23:32:38,931 django.server Thread-3 (process_request_thread) 14652 basehttp basehttp.py 212 django.server log_message 21332 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO 2023-09-13 23:32:38,937 django.server Thread-3 (process_request_thread) 14652 basehttp basehttp.py 212 django.server log_message 21332 "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+INFO 2023-09-13 23:32:38,937 django.server Thread-2 (process_request_thread) 6356 basehttp basehttp.py 212 django.server log_message 21332 "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+INFO 2023-09-13 23:33:45,514 django.server Thread-2 (process_request_thread) 6356 basehttp basehttp.py 212 django.server log_message 21332 "GET /historical-balances/ HTTP/1.1" 200 59239
+INFO 2023-09-13 23:33:48,674 django.server Thread-2 (process_request_thread) 6356 basehttp basehttp.py 212 django.server log_message 21332 "GET /swagger/schema HTTP/1.1" 301 0
+INFO 2023-09-13 23:33:48,684 django.server Thread-3 (process_request_thread) 14652 basehttp basehttp.py 212 django.server log_message 21332 "GET /swagger/schema/ HTTP/1.1" 200 2177
+INFO 2023-09-13 23:33:48,740 django.server Thread-3 (process_request_thread) 14652 basehttp basehttp.py 212 django.server log_message 21332 "GET /static/drf-yasg/style.css HTTP/1.1" 200 1047
+INFO 2023-09-13 23:33:48,748 django.server Thread-3 (process_request_thread) 14652 basehttp basehttp.py 212 django.server log_message 21332 "GET /static/drf-yasg/swagger-ui-dist/swagger-ui.css HTTP/1.1" 200 145206
+INFO 2023-09-13 23:33:48,758 django.server Thread-3 (process_request_thread) 14652 basehttp basehttp.py 212 django.server log_message 21332 "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-bundle.js HTTP/1.1" 200 1046583
+INFO 2023-09-13 23:33:48,764 django.server Thread-3 (process_request_thread) 14652 basehttp basehttp.py 212 django.server log_message 21332 "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-standalone-preset.js HTTP/1.1" 200 322863
+INFO 2023-09-13 23:33:48,805 django.server Thread-3 (process_request_thread) 14652 basehttp basehttp.py 212 django.server log_message 21332 "GET /static/drf-yasg/insQ.min.js HTTP/1.1" 200 2093
+INFO 2023-09-13 23:33:48,810 django.server Thread-3 (process_request_thread) 14652 basehttp basehttp.py 212 django.server log_message 21332 "GET /static/drf-yasg/immutable.min.js HTTP/1.1" 200 56904
+INFO 2023-09-13 23:33:48,813 django.server Thread-3 (process_request_thread) 14652 basehttp basehttp.py 212 django.server log_message 21332 "GET /static/drf-yasg/swagger-ui-init.js HTTP/1.1" 200 14964
+INFO 2023-09-13 23:33:49,038 django.server Thread-3 (process_request_thread) 14652 basehttp basehttp.py 212 django.server log_message 21332 "GET /swagger/schema/?format=openapi HTTP/1.1" 200 1004
+INFO 2023-09-13 23:33:49,063 django.server Thread-3 (process_request_thread) 14652 basehttp basehttp.py 212 django.server log_message 21332 "GET /static/drf-yasg/swagger-ui-dist/favicon-32x32.png HTTP/1.1" 200 628
